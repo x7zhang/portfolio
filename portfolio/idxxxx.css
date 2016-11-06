@@ -1,0 +1,41 @@
+body {
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  font-size: 13px;
+  text-align: center;
+  background-image: url('images/abstract-5.jpg');
+  background-color: #bcdee7;
+}
+
+nav {
+    font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding-top: 0px;
+    position: fixed;
+    padding-left: 33%;
+}
+
+li {
+    font: bold 33px/18px sans-serif;
+    display: inline-block;
+    margin-right: -4px;
+    position: relative;
+    padding: 15px 20px;
+    display: inline-block;
+    padding: 1rem; /* not such a good idea */
+    color: grey;
+    text-decoration: none;
+}
+
+ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 15px 4px 17px 0;
+  list-style: none;
+  border: none;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
