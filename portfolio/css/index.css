@@ -1,0 +1,152 @@
+body {
+	  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	  margin: 0 auto;
+	  font-size: 20px;
+	  text-align: center;
+}
+
+.side {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+  width: 50px;
+  border-right: 1px dashed rgba(0, 0, 0, 0.3);
+  color: yellow;
+  font-family: "nimbus-sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .0875rem;
+  font-size: 10px;
+  transition: all 0.3s cubic-bezier(0.05, 0.69, 0.14, 1);
+}
+.side:hover {
+  color: yellow;
+}
+.side .side__inner {
+  position: relative;
+  height: 100%;
+  white-space: nowrap;
+}
+.side a {
+  color: inherit;
+  word-spacing: 0;
+  transition: all 0.3s cubic-bezier(0.05, 0.69, 0.14, 1);
+}
+.side a:link {
+	text-decoration: none;
+}
+.side .top,
+.side .bottom {
+  position: absolute;
+  left: 0;
+  -webkit-transform: rotate(-90deg) perspective(1px);
+          transform: rotate(-90deg) perspective(1px);
+  -webkit-transform-origin: 50px 50px;
+          transform-origin: 50px 50px;
+  height: 50px;
+  line-height: 50px;
+  white-space: nowrap;
+  word-spacing: 5rem;
+}
+
+
+.side .top {
+  top: 25px;
+  text-align: right;
+  color: yellow;
+}
+.side .bottom {
+  top: 300px;
+}
+.side .bottom:hover a {
+  color: rgba(0, 0, 0, 0.2);
+}
+.side .bottom:hover a:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+
+.dark-gray-background {
+  background-color: #53b371;
+}
+.middle-blue-font {
+  color: #efefef;
+}
+#home {
+
+  padding: 200px 0 200px;
+}
+#home h1 p {
+    font-size: 30px;
+    font-weight: 400;
+    color: #eee;
+  }
+#home h1 strong {
+    font-size: 34px;
+    color: #edf9f9;
+  }
+.element {
+	font-size: 20px;
+}
+.container-fluid {
+  min-height: 100%;
+  padding: 0;
+}
+.fill {
+  height: 100%;
+  min-height: 100%;
+}
+.center {
+	left: 50%;
+	position: relative;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.text-center {
+	text-align: center;
+}
+p {
+	margin: 0 0 10px;
+}
+
+#projects {
+  background-color: #aec1c7;
+  padding: 100px 0 150px;
+}
+#projects h2 {
+  display: block;
+  font-size: 38px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  margin: 0 ;
+  padding-bottom: 50px;
+  position: relative;
+  text-align: center;
+}
+
+
+
+#about {
+  background-color: #c3d8ba;
+  margin: 0;
+  min-height: 70%;
+  padding: 80px 0;
+}
+
+#about h2 {
+  display: block;
+  font-size: 38px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  margin: 0 ;
+  
+  padding-bottom: 50px;
+  text-align: center;
+}
+.rowplus {
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: left;
+}
