@@ -1,12 +1,6 @@
 $("document").ready(function() {
   handleTyping();
 });
-
-
-
-
-
-
 function handleTyping () {
   $(".element").typed({
     strings: ["I'm a new grad Web Developer, love cook and code."],
